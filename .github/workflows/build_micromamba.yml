@@ -422,6 +422,7 @@ jobs:
             Checksums:
               linux-64:      ${{ steps.get_micromamba.outputs.micromamba_sha_val_linux_64 }}
               linux-aarch64: ${{ steps.get_micromamba.outputs.micromamba_sha_val_linux_aarch64 }}
+              linux-ppc64le: ${{ steps.get_micromamba.outputs.micromamba_sha_val_linux_ppc64le }}
               osx-64:        ${{ steps.get_micromamba.outputs.micromamba_sha_val_osx_64 }}
               osx-arm64:     ${{ steps.get_micromamba.outputs.micromamba_sha_val_osx_arm64 }}
               win-64:        ${{ steps.get_micromamba.outputs.micromamba_sha_val_win_64 }}
@@ -447,6 +448,7 @@ jobs:
             Checksums:
               linux-64:      ${{ steps.get_micromamba_nightly.outputs.micromamba_sha_val_linux_64 }}
               linux-aarch64: ${{ steps.get_micromamba_nightly.outputs.micromamba_sha_val_linux_aarch64 }}
+              linux-ppc64le: ${{ steps.get_micromamba_nightly.outputs.micromamba_sha_val_linux_ppc64le }}
               osx-64:        ${{ steps.get_micromamba_nightly.outputs.micromamba_sha_val_osx_64 }}
               osx-arm64:     ${{ steps.get_micromamba_nightly.outputs.micromamba_sha_val_osx_arm64 }}
               win-64:        ${{ steps.get_micromamba_nightly.outputs.micromamba_sha_val_win_64 }}
