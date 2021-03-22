@@ -17,6 +17,8 @@ jobs:
             target_platform: linux-64
           - os: ubuntu-latest
             target_platform: linux-aarch64
+          - os: ubuntu-latest
+            target_platform: linux-ppc64le
           - os: macos-latest
             target_platform: osx-64
           - os: macos-latest
